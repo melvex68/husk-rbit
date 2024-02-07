@@ -10,7 +10,7 @@ function mueverobot () {
     if (x > 200) {
         robotbit.MotorRunDual(
         robotbit.Motors.M1A,
-        150,
+        80,
         robotbit.Motors.M2A,
         30
         )
@@ -20,7 +20,7 @@ function mueverobot () {
         robotbit.Motors.M1A,
         30,
         robotbit.Motors.M2A,
-        150
+        80
         )
     }
 }
